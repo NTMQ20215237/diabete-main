@@ -1,0 +1,24 @@
+{
+  "name": "diabetes",
+  "version": "1.0.0",
+  "description": "predict diabetes",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --inspect src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lamnv",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.1",
+    "express-handlebars": "^6.0.6",
+    "handlebars": "^4.7.7",
+    "mongoose": "^6.8.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "pug": "^3.0.2"
+  }
+}

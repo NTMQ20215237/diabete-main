@@ -1,0 +1,71 @@
+<style>
+    .form{
+       margin-left: 190px;
+        width: 80%;
+
+    }
+    .mb-3{
+        width: 80%;
+          background-color: rgba(0, 255, 89, 0.134);
+    }
+    .formtext{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        background-color: rgba(0, 255, 89, 0.134);
+        align-items: center;
+    }
+    .result{
+        width: 80%;
+        margin: 30px;
+        margin-left: 210px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+</style>
+<div class="formtext">
+<h1>MACHINE LEARNING FOR DIABETES PREDICTION_TEAM 22</h1>
+<form class="form" method="post" name="formforsub" >
+    <div class="mb-3">
+        <label for="pregnancy" class="form-label">Pregnancies</label>
+        <input type="text" class="form-control" id="pregnancy" aria-describedby="emailHelp" name="pregnancy">
+    </div>
+    <div class="mb-3">
+        <label for="Glucozo" class="form-label">Glucozo</label>
+        <input type="text" class="form-control" id="Glucozo" name="glucozo" placeholder="example : 150">
+    </div>
+    <div class="mb-3">
+        <label for="insulin" class="form-label">Insulin</label>
+        <input type="text" class="form-control" id="insulin" name="insulin" placeholder="example : 0.67">
+    </div>
+    <div class="mb-3">
+        <label for="bloodPressure" class="form-label">BloodPressure</label>
+        <input type="text" class="form-control" id="bloodPressure" name="bloodPressure" placeholder="example : 77">
+    </div>
+    <div class="mb-3">
+        <label for="age" class="form-label">Age</label>
+        <input type="text" class="form-control" id="age" name="age">
+    </div>
+    <div class="mb-3">
+        <label for="height" class="form-label">Height</label>
+        <input type="text" class="form-control" id="height" name="height" placeholder="In cm">
+    </div>
+     <div class="mb-3">
+        <label for="weight" class="form-label">Weight</label>
+        <input type="text" class="form-control" id="weight" name="weight" placeholder="in kilogram">
+    </div>
+    
+    <button type="submit" class="btn btn-primary ">Submit</button>
+</form>
+<form action="" name=" result" class="result" >
+   <div class="mb-3">
+        <label for="result" class="form-label">Result</label>
+        <input type="text" class="form-control" id="result" aria-describedby="emailHelp" name="result">
+    </div>
+</form>
+
+</div>
+
+
